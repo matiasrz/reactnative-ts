@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reactnative-ts",
-    "slug": "ReactNative TS",
+    "name": "ReactNative TS",
+    "slug": "reactnative-ts",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
