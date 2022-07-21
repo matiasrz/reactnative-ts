@@ -1,6 +1,11 @@
 {
   "extends": "expo/tsconfig.base",
-  "typeRoots": ["node_modules/@types"],
+  "typeRoots": [
+    "node_modules/@types",
+    "src/globals/types/atoms.d.ts",
+    "src/globals/types/core.d.ts",
+    "src/globals/types/molecules.d.ts",
+  ],
   "compilerOptions": {
     "strict": true,
     "allowSyntheticDefaultImports": true,
@@ -12,8 +17,11 @@
     "moduleResolution": "node",
     "noEmit": true,
     "paths": {
-      // "@/folder/*": ["src/folder/*"],
+      "@/atoms/*": ["src/components/atoms/*"],
+      "@/molecules/*": ["src/components/molecules/*"],
+      "@/globals/*": ["src/globals/*"],
+      "@/hocs/*": ["src/hocs/*"],
     },
     "resolveJsonModule": true,
-  },
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "cli": {
+    "version": ">= 0.52.0"
+  },
+  "build": {
+    "_internal": {
+      "distribution": "internal"
+    },
+    "dev+client": {
+      "extends": "_internal",
+      "developmentClient": true,
+      "releaseChannel": "dev"
+    },
+    "dev+client+simulator": {
+      "developmentClient": true,
+      "releaseChannel": "dev",
+      "ios": {
+        "simulator": true
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "dev+internal": {
+      "extends": "_internal",
+      "developmentClient": false,
+      "releaseChannel": "dev"
+    },
+    "preview": {
+      "extends": "_internal",
+      "releaseChannel": "stage"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
