@@ -18,7 +18,8 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.matiasrzeta.reactnative-ts-template"
     },
     "android": {
       "adaptiveIcon": {
