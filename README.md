@@ -1,4 +1,4 @@
-[![GitHub release](https://badgen.net/badge/Template/1.0.0/cyan)](https://github.com/matiasrz/reactnative-ts/releases/tag/v1.0.0)
+[![GitHub release](https://badgen.net/github/release/matiasrz/reactnative-ts?icon=github&label)](https://github.com/matiasrz/reactnative-ts/releases/latest)
 [![Npm package version](https://badgen.net/npm/v/yarn?icon=npm&label=&color=grey)](https://npmjs.com/package/express)
 
 ## 🧬 Specs
